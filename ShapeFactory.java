@@ -13,8 +13,8 @@ public class ShapeFactory
     {
         width = 25;
         height = 25;
-        stroke = new BasicStroke(3F);
-        switch(shape_type / 10)
+        stroke = new BasicStroke(7F);
+        switch(shape_type / 20)
         {
         case 1: // '\001'
             shape = createStar(3, new Point(0, 0), (double)width / 2D, (double)width / 2D);
